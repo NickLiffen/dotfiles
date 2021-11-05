@@ -4,7 +4,7 @@ alias zr="source ~/.zshrc; echo 'zshrc reloaded!'"
 alias myip='curl http://ipecho.net/plain; echo'
 
 alias y='yarn'
-alias yi='rm -rf node_modules/ && rm package-lock.json && yarn'
+alias yall='rm -rf node_modules/ && rm package-lock.json && rm yarn.lock && yarn'
 alias ylc='yarn run lint:check'
 alias ylw='yarn run lint:write'
 alias ypc='yarn run prettier:check'
