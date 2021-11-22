@@ -7,5 +7,4 @@ set -x
 ln -s $(pwd)/aliases.zsh $HOME/.aliases.zsh
 ln -s $(pwd)/gitconfig $HOME/.gitconfig
 
-source $HOME/.aliases.zsh
-source $HOME/.gitconfig
+
